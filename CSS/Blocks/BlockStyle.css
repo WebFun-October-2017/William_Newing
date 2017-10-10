@@ -8,9 +8,10 @@
     background-color: silver;
     margin: 0px auto;
     overflow: hidden;
-       height: auto;
+       height: auto; 
    }
    #header{
+    border-radius: 50px;
     height: 150px;
     background-color: green;
    }
