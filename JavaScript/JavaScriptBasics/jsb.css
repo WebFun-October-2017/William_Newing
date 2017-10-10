@@ -1,0 +1,55 @@
+/*CSS reset settings here*/
+
+*{
+    margin: 12px;
+    padding: 10px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color: #4553D3;
+    margin: 0px auto;
+    overflow: hidden;
+       height: auto; 
+   }
+   #header{
+    border-radius: 25px;
+    height: 50px;
+    background-color: rgba(240, 30, 11, 0.9);
+        }
+        h1{
+            color: #DDD1D1;
+            text-align: left;
+        }
+   #navigation{
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    background-color: #00CCFF;
+   }
+        ul{
+            height: 1px;
+            color: #00FFF2;
+            text-align: left;
+            margin: 10 10px;
+            padding: 5px;
+        }
+   #main_content{
+    border-radius: 25px;
+    height: 400px;
+    width: 620px;
+    background-color: black;
+   }
+   #navigation, #main_content{ 
+       float:left;
+   }
+   #advertisement{
+    border-radius: 25px;
+    height: 20px;
+    width: 950px;
+    margin: 140 80px;
+    padding: 30px;
+    background-color: #5A585A;
+   }
+   .clear{
+       clear: both;
+   } 
