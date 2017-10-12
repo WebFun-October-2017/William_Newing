@@ -1,0 +1,136 @@
+/*CSS reset settings here*/ 
+*{
+    outline: 1px dashed green;
+}
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+}
+header h1, header h2 {
+    display: inline-block;
+    width: 48%;
+}
+#bio {
+    height: 250px;
+    padding: 20px;
+    height: 200px;
+    background-color: violet;
+    }
+    #bio img {
+        height: 200px;
+        width: 300px;
+        border: 4px solid grey;
+    }
+    #bio div {
+        display: inline-block;
+        width: 540px;
+        height: 200px;
+        vertical-align: top;
+        margin-left: 20px;
+        background-color: white;
+    }
+    #bio div h3 {
+        margin: 0px;
+        height: 30px;
+        background-color: silver;
+        color: white;
+    }
+    #bio div p {
+        background-color: white;
+    }
+.padding {
+    padding: 3px;
+}
+#main_content {
+    height: 640px;
+    background-color: violet;
+}
+    .subcon {
+        display: inline-block;
+        width: 280px;
+        height: 600px;
+        vertical-align: top;
+        margin-left: 20px;
+        background-color: white;
+    }
+    #main_content div h3 {
+        margin: 0px;
+        height: 30px;
+        background-color: silver;
+        color: white;
+    }
+        #img1 {
+            height: auto;
+            width: 280px;
+            display: block;
+            margin: 0 auto;
+            clear: right;
+        }
+        #main_content div h4 {
+            margin: 0px;
+            height: 30px;
+            background-color: silver;
+            color: white;
+        }
+        #img2 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;
+        }
+        #img3 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;            
+        }
+        #img4 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;            
+        }
+        #img5 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;
+        }
+        #img6 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;
+        }
+        #img7 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;
+        }
+        #img8 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;
+        }
+        #img9 {
+            height: auto;
+            width: 40px;
+            display: inline-block;
+            padding: 6px;
+        }
+        #main_content h5 {
+            border-radius: 10px;
+            height: 40px;
+            width: 75px;
+            text-align: center;
+            vertical-align: text-bottom;
+            color: white;
+            background-color: green;
+            margin: 10px auto;
+            clear: right;
+        }
+footer {
+    height: 100px;
+}

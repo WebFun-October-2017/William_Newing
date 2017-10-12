@@ -1,32 +1,33 @@
 /*CSS reset settings here*/
 *{
-    margin: 12px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
    }
    #wrapper{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
-    overflow: hidden;
-       height: auto; 
+    padding: 15px;
    }
    #header{
-    border-radius: 50px;
     height: 150px;
     background-color: green;
+    margin: 15px bottom;
    }
    #navigation{
     height: 300px;
     width: 200px;
     background-color: blue;
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 15px;
    }
    #main_content{
     height: 400px;
-    width: 620px;
+    width: 700px;
     background-color: red;
-   }
-   #navigation, #main_content{ 
-       float:left;
+    display: inline-block;
+    padding: 15px;
    }
    .subcontents{
     height: 170px;
@@ -34,10 +35,7 @@
     margin: 0 5px;
     padding: 8px;
     background-color: yellow;
-   }
-   .subcontents{
-       float:left;
-   }
+    display: inline-block;   }
    #advertisement{
     height: 80px;
     width: 500px;
@@ -45,9 +43,4 @@
     padding: 30px;
     background-color: purple;
    }
-   #advertisement{
-       float:left;
-   }
-   .clear{
-       clear: both;
-   }    
+   
