@@ -1,39 +1,46 @@
-/*CSS reset settings here*/ 
+/*CSS reset settings here*/
 *{
     outline: 1px dashed green;
+	margin: 0;
+	padding: 0;
 }
 #wrapper {
     width: 970px;
     margin: 0px auto;
+	background-color: violet;
 }
 header h1, header h2 {
     display: inline-block;
     width: 48%;
 }
+h3, h4, h1, h2{
+	margin: 0px;
+	height: 30px;
+	background-color: silver;
+	color: white;
+}
+.body-content {
+	display: inline-block;
+	vertical-align: top;
+	/*margin-left: 20px;*/
+	background-color: white;
+}
+	.body-content .large {
+		height: 600px;
+	}
 #bio {
     height: 250px;
     padding: 20px;
     height: 200px;
-    background-color: violet;
-    }
+}
     #bio img {
         height: 200px;
         width: 300px;
         border: 4px solid grey;
     }
     #bio div {
-        display: inline-block;
         width: 540px;
         height: 200px;
-        vertical-align: top;
-        margin-left: 20px;
-        background-color: white;
-    }
-    #bio div h3 {
-        margin: 0px;
-        height: 30px;
-        background-color: silver;
-        color: white;
     }
     #bio div p {
         background-color: white;
@@ -41,96 +48,35 @@ header h1, header h2 {
 .padding {
     padding: 3px;
 }
-#main_content {
-    height: 640px;
-    background-color: violet;
+.subcon {
+    width: 280px;
+    height: 600px;
 }
-    .subcon {
+	.subcon img {
+		height: auto;
+        width: 40px;
         display: inline-block;
-        width: 280px;
-        height: 600px;
-        vertical-align: top;
-        margin-left: 20px;
-        background-color: white;
-    }
-    #main_content div h3 {
-        margin: 0px;
-        height: 30px;
-        background-color: silver;
-        color: white;
-    }
-        #img1 {
-            height: auto;
-            width: 280px;
-            display: block;
-            margin: 0 auto;
-            clear: right;
-        }
-        #main_content div h4 {
-            margin: 0px;
-            height: 30px;
-            background-color: silver;
-            color: white;
-        }
-        #img2 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;
-        }
-        #img3 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;            
-        }
-        #img4 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;            
-        }
-        #img5 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;
-        }
-        #img6 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;
-        }
-        #img7 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;
-        }
-        #img8 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;
-        }
-        #img9 {
-            height: auto;
-            width: 40px;
-            display: inline-block;
-            padding: 6px;
-        }
-        #main_content h5 {
-            border-radius: 10px;
-            height: 40px;
-            width: 75px;
-            text-align: center;
-            vertical-align: text-bottom;
-            color: white;
-            background-color: green;
-            margin: 10px auto;
-            clear: right;
-        }
+        padding: 6px;
+	}
+img.sub-head-img {
+	height: auto;
+	width: 280px;
+	display: block;
+	margin: 0 auto;
+}
+
+.subcon a {
+    border-radius: 10px;
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    margin: 10px auto;
+    clear: right;
+	padding: 15px 5px 0px 5px;
+	display: block;
+}
 footer {
     height: 100px;
 }
